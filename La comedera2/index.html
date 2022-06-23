@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/estilos.css">
+	<link rel="stylesheet" href="./css/estiloshambur.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<title>La comedera</title>
+</head>
+<body>
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">La Comedera</h3>
+				<p class="descripcion">
+					"Amurallar el propio sufrimiento es arriesgarte a que te devore desde el interior"<br>
+					frida kahlo
+				</p>
+			</div>
+		</div>
+
+		<div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Menu</h3>
+				<div class="indicadores"></div>
+			</div>
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#" onclick="showDiv1();"><img src="img/1.png"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="showDiv2();"><img src="img/2.png"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="showDiv3();"><img src="img/3.png"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="showDiv4();"><img src="img/4.png"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="showDiv5();"><img src="img/5.png"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="showDiv6();"><img src="img/6.png"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#" onclick="showDiv7();"><img src="img/7.png"></a>
+						</div>
+					</div>
+				</div>
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+	</main>
+
+		<div id="div1" style="display:'';"><!-- ----- ----- hamburgesa ----- ----- -->
+			<article class="card_hamburgesa">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Chingona</h1>
+						<p class="card_descriptions_ham">
+							<center>
+								<ul>
+									<li>Carne de res o crujipollo</li>
+									<li>Tiras de tortilla frita</li>
+									<li>Guacamole con tomate de habanero</li>
+								</ul>
+							</center>
+						</p>
+					<h2 class="card__titles_ham">$80</h2>
+				</div>
+			</article>
+			<article class="card_ham_2">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Rusa</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Pechuga asada de pollo 120gr</li>
+								<li>Aderezo de chipotle</li>
+								<li>Tocino</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$75</h2>
+				</div>
+			</article>
+			<article class="card_ham_3">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Payasa</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Carne de res o crujipollo 90gr</li>
+								<li>Jamon</li>
+								<li>Salchicha</li>
+								<li>Queso oaxaca</li>
+								<li>Tocino</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$75</h2>
+				</div>
+			</article>
+			<article class="card_ham_4">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Friducha</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Carne de res o crujipollo 90gr</li>
+								<li>Chorizo</li>
+								<li>Queso oaxaca</li>
+								<li>Tocino</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$75</h2>
+				</div>
+			</article>
+			<article class="card_ham_5">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La huerquilla</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Carne de res o crujipollo 90gr</li>
+								<li>4 aros de cebolla</li>
+								<li>Extra tocino</li>
+								<li>BBQ</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$75</h2>
+				</div>
+			</article>
+			<article class="card_ham_6">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La goloza</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Carne de res o crujipollo 90gr</li>
+								<li>Salchicha</li>
+								<li>Chorizo</li>
+								<li>Huevo estrellado</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$80</h2>
+				</div>
+			</article>
+			<article class="card_ham_7">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Atascada</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Doble de todo</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$95</h2>
+				</div>
+			</article>
+			<article class="card_ham_8">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">Pal escuicle</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Carne de res 55gr</li>
+								<li>Lechuga</li>
+								<li>Jitomate</li>
+								<li>Catsup</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$35</h2>
+				</div>
+			</article>
+			<article class="card_ham_9">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">Paquetin</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Carne de res 55gr</li>
+								<li>Lechuga</li>
+								<li>Catsup</li>
+								<li>Papas a la Francesa 80gr</li>
+								<li>Refresco 235ml</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$55</h2>
+				</div>
+			</article>
+			<article class="card_ham_10">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Jodida</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Carne de res o crujipollo 90gr</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$50</h2>
+				</div>
+			</article>
+			<article class="card_ham_11">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">Paqueton</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Carne de res o crujipollo 90gr</li>
+								<li>Papas a la francesa 130gr</li>
+								<li>Refresco 600ml</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$80</h2>
+				</div>
+			</article>
+			<article class="card_ham_12">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Jaguayana</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Carne de res o crujipollo 90gr</li>
+								<li>Piña</li>
+								<li>Tocino</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$60</h2>
+				</div>
+			</article>
+			<article class="card_ham_13">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Arrachera</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Carne molida de arrachera 130gr</li>
+								<li>Manchego</li>
+								<li>Tocino</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$60</h2>
+				</div>
+			</article>
+			<article class="card_ham_14">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Queso... Bas</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Carne de res o crujipollo 90gr</li>
+								<li>Queso Manchego</li>
+								<li>Queso oaxaca</li>
+								<li>Queso chedar</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$80</h2>
+				</div>
+			</article>
+		</div>
+		<div id="div2" style="display: none;"><!-- ----- ----- Alitas ----- ----- -->
+			<article class="card_hamburgesa">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Chingona</h1>
+						<p class="card_descriptions_ham">
+							<center>
+								<ul>
+									<li>Carne de res o crujipollo</li>
+									<li>Tiras de tortilla frita</li>
+									<li>Guacamole con tomate de habanero</li>
+								</ul>
+							</center>
+						</p>
+					<h2 class="card__titles_ham">$80</h2>
+				</div>
+			</article>
+			<article class="card_ham_2">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Rusa</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Pechuga asada de pollo 120gr</li>
+								<li>Aderezo de chipotle</li>
+								<li>Tocino</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$75</h2>
+				</div>
+			</article>
+		</div>
+		<div id="div3" style="display: none;"><!-- ----- ----- Costillas ----- ----- -->
+			<article class="card_hamburgesa">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Chingona</h1>
+						<p class="card_descriptions_ham">
+							<center>
+								<ul>
+									<li>Carne de res o crujipollo</li>
+									<li>Tiras de tortilla frita</li>
+									<li>Guacamole con tomate de habanero</li>
+								</ul>
+							</center>
+						</p>
+					<h2 class="card__titles_ham">$80</h2>
+				</div>
+			</article>
+			<article class="card_ham_2">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Rusa</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Pechuga asada de pollo 120gr</li>
+								<li>Aderezo de chipotle</li>
+								<li>Tocino</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$75</h2>
+				</div>
+			</article>
+		</div>
+		<div id="div4" style="display: none;"><!-- ----- ----- Snacks ----- ----- -->
+			<article class="card_hamburgesa">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Chingona</h1>
+						<p class="card_descriptions_ham">
+							<center>
+								<ul>
+									<li>Carne de res o crujipollo</li>
+									<li>Tiras de tortilla frita</li>
+									<li>Guacamole con tomate de habanero</li>
+								</ul>
+							</center>
+						</p>
+					<h2 class="card__titles_ham">$80</h2>
+				</div>
+			</article>
+			<article class="card_ham_2">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Rusa</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Pechuga asada de pollo 120gr</li>
+								<li>Aderezo de chipotle</li>
+								<li>Tocino</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$75</h2>
+				</div>
+			</article>
+		</div>
+		<div id="div5" style="display: none;"><!-- ----- ----- Hog Dog ----- ----- -->
+			<article class="card_hamburgesa">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Chingona</h1>
+						<p class="card_descriptions_ham">
+							<center>
+								<ul>
+									<li>Carne de res o crujipollo</li>
+									<li>Tiras de tortilla frita</li>
+									<li>Guacamole con tomate de habanero</li>
+								</ul>
+							</center>
+						</p>
+					<h2 class="card__titles_ham">$80</h2>
+				</div>
+			</article>
+			<article class="card_ham_2">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Rusa</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Pechuga asada de pollo 120gr</li>
+								<li>Aderezo de chipotle</li>
+								<li>Tocino</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$75</h2>
+				</div>
+			</article>
+		</div>
+		<div id="div6" style="display: none;"><!-- ----- ----- Corrida ----- ----- -->
+			<article class="card_hamburgesa">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Chingona</h1>
+						<p class="card_descriptions_ham">
+							<center>
+								<ul>
+									<li>Carne de res o crujipollo</li>
+									<li>Tiras de tortilla frita</li>
+									<li>Guacamole con tomate de habanero</li>
+								</ul>
+							</center>
+						</p>
+					<h2 class="card__titles_ham">$80</h2>
+				</div>
+			</article>
+			<article class="card_ham_2">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Rusa</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Pechuga asada de pollo 120gr</li>
+								<li>Aderezo de chipotle</li>
+								<li>Tocino</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$75</h2>
+				</div>
+			</article>
+		</div>
+		<div id="div7" style="display: none;"><!-- ----- ----- Bebedera ----- ----- -->
+			<article class="card_hamburgesa">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Chingona</h1>
+						<p class="card_descriptions_ham">
+							<center>
+								<ul>
+									<li>Carne de res o crujipollo</li>
+									<li>Tiras de tortilla frita</li>
+									<li>Guacamole con tomate de habanero</li>
+								</ul>
+							</center>
+						</p>
+					<h2 class="card__titles_ham">$80</h2>
+				</div>
+			</article>
+			<article class="card_ham_2">
+				<div class="card__contents_ham">
+					<h1 class="card__titles_ham">La Rusa</h1>
+					<p class="card_descriptions_ham">
+						<center>
+							<ul>
+								<li>Pechuga asada de pollo 120gr</li>
+								<li>Aderezo de chipotle</li>
+								<li>Tocino</li>
+							</ul>
+						</center>
+					</p>
+					<h2 class="card__titles_ham">$75</h2>
+				</div>
+			</article>
+		</div>	
+		
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

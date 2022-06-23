@@ -1,0 +1,867 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* ---------- Titulo-Contenido-Cards ---------- */
+.card__contents_ham {
+    opacity: 0;
+    transition: opacity .25s;
+}
+.card__titles_ham {
+    color: #6A515E;
+    margin-bottom: 15PX;
+    font-size: 2.5rem;
+	margin: 1.5rem 0 2rem;
+	text-transform: uppercase;
+	color: #4facfe;
+}
+.card_descriptions_ham {
+    display: block;
+	color: rgba(0, 0, 0, .5);
+	font-size: 25px;
+    text-align: center;
+	margin: .5rem 0;
+}
+/* ----------hamburgesa 1---------- La chingona*/
+.card_hamburgesa {
+    background: center no-repeat url(../img/1.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_hamburgesa::before,
+.card_hamburgesa::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_hamburgesa::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_hamburgesa::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_hamburgesa:hover::before,
+.card_hamburgesa:hover::after {
+    transform: translateY(0);
+}
+.card_hamburgesa:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 2---------- La rusa*/
+.card_ham_2 {
+    background: center no-repeat url(../img/2.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_2::before,
+.card_ham_2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_2::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_2::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_2:hover::before,
+.card_ham_2:hover::after {
+    transform: translateY(0);
+}
+.card_ham_2:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 3---------- La Payasa*/
+.card_ham_3 {
+    background: center no-repeat url(../img/3.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_3::before,
+.card_ham_3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_3::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_3::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_3:hover::before,
+.card_ham_3:hover::after {
+    transform: translateY(0);
+}
+.card_ham_3:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 4---------- La Friducha*/
+.card_ham_4 {
+    background: center no-repeat url(../img/4.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_4::before,
+.card_ham_4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_4::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_4::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_4:hover::before,
+.card_ham_4:hover::after {
+    transform: translateY(0);
+}
+.card_ham_4:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 5---------- La huerquilla*/
+.card_ham_5 {
+    background: center no-repeat url(../img/hm_1.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_5::before,
+.card_ham_5::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_5::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_5::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_5:hover::before,
+.card_ham_5:hover::after {
+    transform: translateY(0);
+}
+.card_ham_5:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 6---------- La goloza*/
+.card_ham_6 {
+    background: center no-repeat url(../img/5.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_6::before,
+.card_ham_6::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_6::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_6::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_6:hover::before,
+.card_ham_6:hover::after {
+    transform: translateY(0);
+}
+.card_ham_6:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 7---------- La acastaca*/
+.card_ham_7 {
+    background: center no-repeat url(../img/6.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_7::before,
+.card_ham_7::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_7::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_7::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_7:hover::before,
+.card_ham_7:hover::after {
+    transform: translateY(0);
+}
+.card_ham_7:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 8---------- Palescuincle*/
+.card_ham_8 {
+    background: center no-repeat url(../img/7.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_8::before,
+.card_ham_8::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_8::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_8::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_8:hover::before,
+.card_ham_8:hover::after {
+    transform: translateY(0);
+}
+.card_ham_8:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 9---------- Paquetin*/
+.card_ham_9 {
+    background: center no-repeat url(../img/1.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_9::before,
+.card_ham_9::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_9::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_9::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_9:hover::before,
+.card_ham_9:hover::after {
+    transform: translateY(0);
+}
+.card_ham_9:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 10---------- La jodida*/
+.card_ham_10 {
+    background: center no-repeat url(../img/2.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_10::before,
+.card_ham_10::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_10::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_10::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_10:hover::before,
+.card_ham_10:hover::after {
+    transform: translateY(0);
+}
+.card_ham_10:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 11---------- La paqueton*/
+.card_ham_11 {
+    background: center no-repeat url(../img/3.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_11::before,
+.card_ham_11::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_11::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_11::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_11:hover::before,
+.card_ham_11:hover::after {
+    transform: translateY(0);
+}
+.card_ham_11:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 12---------- La jaguayana*/
+.card_ham_12 {
+    background: center no-repeat url(../img/4.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_12::before,
+.card_ham_12::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_12::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_12::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_12:hover::before,
+.card_ham_12:hover::after {
+    transform: translateY(0);
+}
+.card_ham_12:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 13---------- La arrachera*/
+.card_ham_13 {
+    background: center no-repeat url(../img/5.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_13::before,
+.card_ham_13::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_13::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_13::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_13:hover::before,
+.card_ham_13:hover::after {
+    transform: translateY(0);
+}
+.card_ham_13:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ----------hambuerguesa 14---------- La queso...bas*/
+.card_ham_14 {
+    background: center no-repeat url(../img/6.png);
+    position: relative;
+    width: 90%;
+    height: 350px;
+    color: #a18a96;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+	margin: auto;
+}
+.card_ham_14::before,
+.card_ham_14::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(60% + 35px);
+    background-color: #fff;
+    transition: transform .5s.25s ease-in;
+    z-index: -1;
+}
+.card_ham_14::before {
+    top: 0;
+    clip-path:
+        polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+    transform: translateY(-100%);
+}
+.card_ham_14::after {
+    bottom: 0;
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+}
+.card_ham_14:hover::before,
+.card_ham_14:hover::after {
+    transform: translateY(0);
+}
+.card_ham_14:hover .card__contents_ham {
+    opacity: 1;
+    transition-delay: .75s;
+}
+/* ---------- medias ---------- */
+@media screen and (max-width: 800px) {
+    .card_hamburgesa {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_2 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_3 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_4 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_5 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_6 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_7 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_8 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_9 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_10 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_11 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_12 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_13 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+    
+        .card_ham_14 {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+        }
+}
+@media screen and (min-width: 300px) {
+    .card_hamburgesa {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_2 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_3 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_4 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_5 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_6 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_7 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_8 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_9 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_10 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_11 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_12 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_13 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card_ham_14 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+}
